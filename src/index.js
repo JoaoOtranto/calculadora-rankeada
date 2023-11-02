@@ -1,6 +1,5 @@
 function rankedStatus(wins, losses){
     let rankedBalance = wins - losses
-    console.log(rankedBalance)
     return rankedBalance
 }
 
