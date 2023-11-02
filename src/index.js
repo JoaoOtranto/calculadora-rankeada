@@ -1,10 +1,13 @@
+//função para realizar o cálculo do saldo de vitórias ranqueadas
 function rankedStatus(wins, losses){
     let rankedBalance = wins - losses
     return rankedBalance
 }
 
+//variável para armazenamento do solda do vitórias
 let rankedLevel = rankedStatus(102, 37)
 
+//estrutura de decisão para cada caso obtido como resposta do rankedLevel
 switch (true){
     case rankedLevel < 10:
         console.log(`O herói tem saldo de ${rankedLevel} vitórias e está no nível Ferro`) 
